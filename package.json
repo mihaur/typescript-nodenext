@@ -1,0 +1,20 @@
+{
+  "name": "typescript-nodenext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-dev --respawn -- src/main.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}

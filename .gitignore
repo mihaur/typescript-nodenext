@@ -1,3 +1,6 @@
+# tsc build directory
+dist
+
 # Logs
 logs
 *.log
